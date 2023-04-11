@@ -35,7 +35,7 @@ namespace DOOR.EF.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasDefaultSchema("DOOR_USER")
+            modelBuilder.HasDefaultSchema("UD_KOATES")
                 .UseCollation("USING_NLS_COMP");
 
             modelBuilder.Entity<AspNetUser>(entity =>
