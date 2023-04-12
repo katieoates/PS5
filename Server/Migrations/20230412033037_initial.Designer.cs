@@ -12,7 +12,7 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace DOOR.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230411181821_initial")]
+    [Migration("20230412033037_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
